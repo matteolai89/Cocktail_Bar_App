@@ -1,0 +1,7 @@
+.card {
+  display: flex;
+  background-color: transparent;
+  flex-basis: 100%;
+  margin-bottom: 50px;
+  margin-top: -90px;
+}

@@ -1,0 +1,76 @@
+.social-container {
+  background: #46a1b4;
+  padding: 17px 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: -10px;
+}
+
+.socialText {
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 600px;
+}
+
+a.social {
+  transition: transform 250ms;
+  display: inline-block;
+  font-size: 25px;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+a.linkedin {
+  color: #ffffff;
+  padding: 0px 30px;
+}
+
+a.facebook {
+  color: #ffffff;
+  padding: 0px 30px;
+}
+
+a.instagram {
+  color: rgb(255, 255, 255);
+  padding: 0px 30px;
+}
+
+.footerText {
+  font-size: 12px;
+  text-align: center;
+  padding: 1.5%;
+  color: rgb(255, 255, 255);
+  background-color: #4f3075;
+  margin-bottom: -10px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .social-container {
+    margin-top: -300px;
+    margin-bottom: -10px;
+    position: relative;
+    text-align: center;
+    flex-direction: column;
+  }
+  a.social {
+    padding-top: -200px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+  .socialText {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .social-container {
+    margin-top: -280px;
+  }
+  .socialText {
+    margin-right: 150px;
+  }
+}
